@@ -1,0 +1,56 @@
+singIn(로그인)
+
+request
+{
+    email: String,
+    password : String
+} 
+
+-response
+
+성공
+{
+    code : "SU" ,
+    message: "Success"
+}
+
+실패
+
+{
+    code:
+}
+==============================
+
+
+
+signUp (회원가입)
+
+weeklyTop3List (주간 상위3 게시물 리스트)
+
+popularWordList ( 인기 검색어 리스트 )
+
+currentList (최신 게시물 리스트)
+
+searchList ( 검색 게시물 리스트)
+
+relativeWordList(관련 검색어 리스트)
+
+favoriteList (좋아요 리스트)
+
+putFavorite (좋아요 기능)
+
+commentList(댓글 쓰기)
+
+boradDelete (게시물 삭제)
+
+boradWrite ( 게시글 쓰기 )
+
+boardUpdate (게시물 수정 )
+
+getUser (유저 정보)
+
+userBoardList(특정 유저 게시물 리스트)
+
+fileUpload (파일 업로드)
+
+getFile(파일 불러오기)

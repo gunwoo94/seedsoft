@@ -1,0 +1,33 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.5'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Spring Boot Starter
+    implementation 'org.springframework.boot:spring-boot-starter'
+    // Spring Boot Starter Web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // Spring Boot Security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    // Spring Boot Starter JPA
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Oracle JDBC Driver
+    implementation 'com.oracle.database.jdbc:ojdbc8:19.17.0.0'
+    // JWT
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    // Spring Boot Starter Test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

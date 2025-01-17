@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES5",                    // 컴파일 후 JavaScript 버전 (ES5 또는 최신 ES6+)
+      "module": "ESNext",                 // 모듈 시스템 (ESNext, CommonJS 등)
+      "jsx": "react",                     // JSX를 사용할 경우 설정
+      "strict": true,                     // 엄격한 타입 검사
+      "esModuleInterop": true,            // ES6 모듈 호환 설정
+      "skipLibCheck": true,               // 라이브러리 타입 검사 건너뛰기
+      "forceConsistentCasingInFileNames": true, // 파일 대소문자 일관성 강제
+      "moduleResolution": "node",        // Node.js 방식의 모듈 해석
+      "baseUrl": "./",                    // 기본 경로
+      "paths": {                          // 경로 별칭 설정
+        "@/*": ["src/*"]
+      },
+      "outDir": "./dist",                 // 컴파일된 파일 출력 폴더
+      "rootDir": "./src"                  // 소스 폴더
+    },
+    "include": ["src/**/*"],              // 포함할 파일 경로
+    "exclude": ["node_modules", "dist"]   // 제외할 파일 경로
+  }
+  
