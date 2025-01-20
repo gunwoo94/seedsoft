@@ -2,7 +2,7 @@
     "compilerOptions": {
       "target": "ES5",                    // 컴파일 후 JavaScript 버전 (ES5 또는 최신 ES6+)
       "module": "ESNext",                 // 모듈 시스템 (ESNext, CommonJS 등)
-      "jsx": "react",                     // JSX를 사용할 경우 설정
+      "jsx": "react-jsx",                     // JSX를 사용할 경우 설정
       "strict": true,                     // 엄격한 타입 검사
       "esModuleInterop": true,            // ES6 모듈 호환 설정
       "skipLibCheck": true,               // 라이브러리 타입 검사 건너뛰기
